@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>h5-validation</title>
+    <link rel="stylesheet" href="h5-validation.css">
+</head>
+<body>
+    <form>
+        <lable>宽度：</lable>
+        <input id="width" type="number" autofocus required="required" min="0" step="0.01"/>
+        <span></span>       
+        <br/>
+        <div id="width-validation-message"></div>
+        <lable>高度：</lable>
+        <input id="height" type="number" required="required" min="0" step="0.01"/>
+        <span></span>
+        <br/>
+        <div id="height-validation-message"></div>
+        <input id="calculate" type="submit" value="计算"/>
+        <br/>
+        <lable>周长：</lable>
+        <input id="perimeter" type="text" disabled/>
+        <br/>
+        <lable>面积：</lable>
+        <input id="area" type="text" disabled/>
+
+    </form>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>  
+    <script src="h5-validation.js"></script>
+</body>
+
+</html>

@@ -59,17 +59,19 @@ module.exports = function(grunt) {
             },
             release:{
                 files: {
-                    './dist/button.html':'10-timer-button/button.html',
-                    './dist/password.html':'11-password-visual/password.html',
-                    './dist/range.html':'12-range/range.html',
-                    './dist/progress.html':'13-progress/progress.html',
-                    './dist/form-validation.html':'20-form-validation/form-validation.html',
-                    './dist/h5-validation.html':'21-h5-validation/h5-validation.html',
-                    './dist/echart.html':'31-echart/echart.html',
-                    './dist/map.html':'32-map/map.html',
-                    './dist/highlight.html':'33-hightlight/highlight.html',
-                    './dist/excel.html':'34-excel/excel.html',
-                    './dist/timer-button.html':'41-timer-button/timer-button.html',
+                    './dist/10-timer-button/button.html':'10-timer-button/button.html',
+                    './dist/11-password-visual/password.html':'11-password-visual/password.html',
+                    './dist/12-range/range.html':'12-range/range.html',
+                    './dist/13-progress/progress.html':'13-progress/progress.html',
+                    './dist/20-form-validation/form-validation.html':'20-form-validation/form-validation.html',
+                    './dist/21-h5-validation/h5-validation.html':'21-h5-validation/h5-validation.html',
+                    './dist/31-echart/echart.html':'31-echart/echart.html',
+                    './dist/32-map/map.html':'32-map/map.html',
+                    './dist/33-hightlight/highlight.html':'33-hightlight/highlight.html',
+                    './dist/34-excel/excel.html':'34-excel/excel.html',
+                    './dist/41-timer-button/timer-button.html':'41-timer-button/timer-button.html',
+                    './dist/42-password-visual/password-visual.html':'42-password-visual/password-visual.html',
+
 
                     
                 }
@@ -77,17 +79,18 @@ module.exports = function(grunt) {
             
         },
         cssmin: {
-            './dist/button.css':'10-timer-button/button.css',
-            './dist/password.css':'11-password-visual/password.css',
-            './dist/range.css':'12-range/range.css',
-            './dist/progress.css':'13-progress/progress.css',
-            './dist/form-validation.css':'20-form-validation/form-validation.css',
-            './dist/h5-validation.css':'21-h5-validation/h5-validation.css',
-            './dist/echart.css':'31-echart/echart.css',
-            './dist/map.css':'32-map/map.css',
-            './dist/highlight.css':'33-hightlight/highlight.css',
-            './dist/excel.css':'34-excel/excel.css',
-            './dist/timer-button.css':'41-timer-button/timer-button.css',
+            './dist/10-timer-button/button.css':'10-timer-button/button.css',
+            './dist/11-password-visual/password.css':'11-password-visual/password.css',
+            './dist/12-range/range.css':'12-range/range.css',
+            './dist/13-progress/progress.css':'13-progress/progress.css',
+            './dist/20-form-validation/form-validation.css':'20-form-validation/form-validation.css',
+            './dist/21-h5-validation/h5-validation.css':'21-h5-validation/h5-validation.css',
+            './dist/31-echart/echart.css':'31-echart/echart.css',
+            './dist/32-map/map.css':'32-map/map.css',
+            './dist/33-hightlight/highlight.css':'33-hightlight/highlight.css',
+            './dist/34-excel/excel.css':'34-excel/excel.css',
+            './dist/41-timer-button/timer-button.css':'41-timer-button/timer-button.css',
+            './dist/42-password-visual/password-visual.css':'42-password-visual/password-visual.css',
 
 
 
@@ -96,17 +99,18 @@ module.exports = function(grunt) {
         uglify: {
             release:{
                 files: {
-                    './dist/button.js':'10-timer-button/button.js',
-                    './dist/password.js':'11-password-visual/password.js',
-                    './dist/range.js':'12-range/range.js',
-                    './dist/progress.js':'13-progress/progress.js',
-                    './dist/form-validation.js':'20-form-validation/form-validation.js',
-                    './dist/h5-validation.js':'21-h5-validation/h5-validation.js',
-                    './dist/echart.js':'31-echart/echart.js',
-                    './dist/map.js':'32-map/map.js',
-                    './dist/highlight.js':'33-hightlight/highlight.js',
-                    './dist/excel.js':'34-excel/excel.js',
-                    './dist/timer-button.js':'41-timer-button/timer-button.js',
+                    './dist/10-timer-button/button.js':'10-timer-button/button.js',
+                    './dist/11-password-visual/password.js':'11-password-visual/password.js',
+                    './dist/12-range/range.js':'12-range/range.js',
+                    './dist/13-progress/progress.js':'13-progress/progress.js',
+                    './dist/20-form-validation/form-validation.js':'20-form-validation/form-validation.js',
+                    './dist/21-h5-validation/h5-validation.js':'21-h5-validation/h5-validation.js',
+                    './dist/31-echart/echart.js':'31-echart/echart.js',
+                    './dist/32-map/map.js':'32-map/map.js',
+                    './dist/33-hightlight/highlight.js':'33-hightlight/highlight.js',
+                    './dist/34-excel/excel.js':'34-excel/excel.js',
+                    './dist/41-timer-button/timer-button.js':'41-timer-button/timer-button.js',
+                    './dist/42-password-visual/password-visual.js':'42-password-visual/password-visual.js',
 
                 }
             }

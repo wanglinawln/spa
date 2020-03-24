@@ -1,8 +1,8 @@
 /*eslint quotes: ["error", "double"]*/
 var PasswordTextbox = function(n) {
-    var t = $('<input type="password">'),
-        e = $('<input type="text">'),
-        i = $("<div></div>"),
+    var t = $('<input id="pwd" type="password">'),
+        e = $('<input class="pwd-text" type="text">'),
+        i = $('<div id="eye"></div>'),
         d = $('<div class="wd-password">密码：</div>');
     d.append(t),
     d.append(i),

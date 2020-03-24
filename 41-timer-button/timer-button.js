@@ -12,6 +12,7 @@ var $timerButton=(function(){
     
     function show(conf){
         //1.DOM draw
+        clearInterval(timer);
         $(cfg.container).append($btn);
         $.extend(cfg,conf);
         num = cfg.num;

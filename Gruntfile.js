@@ -69,7 +69,7 @@ module.exports = function(grunt) {
                     './dist/map.html':'32-map/map.html',
                     './dist/highlight.html':'33-hightlight/highlight.html',
                     './dist/excel.html':'34-excel/excel.html',
-                    './dist/timer-button.html':'41-timer-button/exceltimer-button.html',
+                    './dist/timer-button.html':'41-timer-button/timer-button.html',
 
                     
                 }
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
             './dist/map.css':'32-map/map.css',
             './dist/highlight.css':'33-hightlight/highlight.css',
             './dist/excel.css':'34-excel/excel.css',
-            './dist/timer-button.css':'41-timer-button/exceltimer-button.css',
+            './dist/timer-button.css':'41-timer-button/timer-button.css',
 
 
 
@@ -106,7 +106,7 @@ module.exports = function(grunt) {
                     './dist/map.js':'32-map/map.js',
                     './dist/highlight.js':'33-hightlight/highlight.js',
                     './dist/excel.js':'34-excel/excel.js',
-                    './dist/timer-button.js':'41-timer-button/exceltimer-button.js',
+                    './dist/timer-button.js':'41-timer-button/timer-button.js',
 
                 }
             }

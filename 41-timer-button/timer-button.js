@@ -1,18 +1,15 @@
 /*eslint quotes: ["error", "double"]*/
-var $timerButton=(function(){
-    
+function TimerButton(){
     var $btn=$('<input class="timer-button" type="button" value="同意(6s)" disabled />');
     var timer;
     var num;
     var cfg={
         container:"body",
         num:6,
-        title:"同意"
+        title:"同意",
+        onClick:null
     }
-    
-    function show(conf){
-        //1.DOM draw
-        clearInterval(timer);
+    this.show=function(conf){
         $(cfg.container).append($btn);
         $.extend(cfg,conf);
         num = cfg.num;
@@ -29,16 +26,46 @@ var $timerButton=(function(){
             }
         }, 1000);
         //2.event bind
+        $btn.click(cfg.onClick);
     }
-    $btn.click(function(){
-        cfg.onClick()
-    });
-    return {
-        show:show
-    }
+}
+// var $timerButton=(function(){   
+//     function show(conf){
+//         //1.DOM draw
+//         var $btn=$('<input class="timer-button" type="button" value="同意(6s)" disabled />');
+//         var timer;
+//         var num;
+//         var cfg={
+//             container:"body",
+//             num:6,
+//             title:"同意",
+//             onClick:null
+//         }
+//         $(cfg.container).append($btn);
+//         $.extend(cfg,conf);
+//         num = cfg.num;
+//         $btn.val(cfg.title+"("+num+"s)")
+//         timer =setInterval(function() {
+//             num--;
+//             if(num===0){
+//                 clearInterval(timer);
+//                 $btn.val(cfg.title);
+//                 $btn.removeAttr("disabled");
+//             }
+//             else{
+//                 $btn.val( cfg.title+"("+num+"s)");
+//             }
+//         }, 1000);
+//         //2.event bind
+//         $btn.click(cfg.onClick);
+//     }
+    
+//     return {
+//         show:show
+//     }
     
     
-}());
+// }());
 
 //不用 page load event
 /**

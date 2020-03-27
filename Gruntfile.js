@@ -71,6 +71,8 @@ module.exports = function(grunt) {
                     './dist/34-excel/excel.html':'34-excel/excel.html',
                     './dist/41-timer-button/timer-button.html':'41-timer-button/timer-button.html',
                     './dist/42-password-visual/password-visual.html':'42-password-visual/password-visual.html',
+                    './dist/43-timer-button/timer-button.html':'43-timer-button/timer-button.html',
+
 
 
                     
@@ -91,6 +93,7 @@ module.exports = function(grunt) {
             './dist/34-excel/excel.css':'34-excel/excel.css',
             './dist/41-timer-button/timer-button.css':'41-timer-button/timer-button.css',
             './dist/42-password-visual/password-visual.css':'42-password-visual/password-visual.css',
+            './dist/43-timer-button/timer-button.css':'43-timer-button/timer-button.css',
 
 
 
@@ -111,6 +114,7 @@ module.exports = function(grunt) {
                     './dist/34-excel/excel.js':'34-excel/excel.js',
                     './dist/41-timer-button/timer-button.js':'41-timer-button/timer-button.js',
                     './dist/42-password-visual/password-visual.js':'42-password-visual/password-visual.js',
+                    './dist/43-timer-button/timer-button.js':'43-timer-button/timer-button.js',
 
                 }
             }

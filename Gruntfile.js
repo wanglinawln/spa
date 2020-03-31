@@ -72,6 +72,9 @@ module.exports = function(grunt) {
                     './dist/41-timer-button/timer-button.html':'41-timer-button/timer-button.html',
                     './dist/42-password-visual/password-visual.html':'42-password-visual/password-visual.html',
                     './dist/43-timer-button/timer-button.html':'43-timer-button/timer-button.html',
+                    './dist/51-fe-router/fe-router.html':'51-fe-router/fe-router.html',
+                    './dist/52-mvc/mvc.html':'52-mvc/mvc.html',
+
 
 
 
@@ -94,6 +97,12 @@ module.exports = function(grunt) {
             './dist/41-timer-button/timer-button.css':'41-timer-button/timer-button.css',
             './dist/42-password-visual/password-visual.css':'42-password-visual/password-visual.css',
             './dist/43-timer-button/timer-button.css':'43-timer-button/timer-button.css',
+            './dist/51-fe-router/fe-router.css':'51-fe-router/fe-router.css',
+            './dist/52-mvc/css/color-view.css':'52-mvc/css/color-view.css',
+            './dist/52-mvc/css/controller.css':'52-mvc/css/controller.css',
+            './dist/52-mvc/css/layout.css':'52-mvc/css/layout.css',
+            './dist/52-mvc/css/size-view.css':'52-mvc/css/size-view.css',
+
 
 
 
@@ -115,6 +124,12 @@ module.exports = function(grunt) {
                     './dist/41-timer-button/timer-button.js':'41-timer-button/timer-button.js',
                     './dist/42-password-visual/password-visual.js':'42-password-visual/password-visual.js',
                     './dist/43-timer-button/timer-button.js':'43-timer-button/timer-button.js',
+                    './dist/51-fe-router/fe-router.js':'51-fe-router/fe-router.js',
+                    './dist/52-mvc/js/color-view.js':'52-mvc/js/color-view.js',
+                    './dist/52-mvc/js/controller.js':'52-mvc/js/controller.js',
+                    './dist/52-mvc/js/data.js':'52-mvc/js/data.js',
+                    './dist/52-mvc/js/size-view.js':'52-mvc/js/size-view.js',
+                    './dist/52-mvc/js/main.js':'52-mvc/js/main.js',
 
                 }
             }

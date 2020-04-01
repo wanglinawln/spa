@@ -74,6 +74,10 @@ module.exports = function(grunt) {
                     './dist/43-timer-button/timer-button.html':'43-timer-button/timer-button.html',
                     './dist/51-fe-router/fe-router.html':'51-fe-router/fe-router.html',
                     './dist/52-mvc/mvc.html':'52-mvc/mvc.html',
+                    './dist/61-store-clicking/store-clicking.html':'61-store-clicking/store-clicking.html',
+                    './dist/62-store-image/store-image.html':'62-store-image/store-image.html',
+                    './dist/63-click-history/click-history.html':'63-click-history/click-history.html',
+
 
 
 
@@ -102,7 +106,9 @@ module.exports = function(grunt) {
             './dist/52-mvc/css/controller.css':'52-mvc/css/controller.css',
             './dist/52-mvc/css/layout.css':'52-mvc/css/layout.css',
             './dist/52-mvc/css/size-view.css':'52-mvc/css/size-view.css',
-
+            './dist/61-store-clicking/store-clicking.css':'61-store-clicking/store-clicking.css',
+            './dist/62-store-image/store-image.css':'62-store-image/store-image.css',
+            './dist/63-click-history/click-history.css':'63-click-history/click-history.css',
 
 
 
@@ -130,7 +136,9 @@ module.exports = function(grunt) {
                     './dist/52-mvc/js/data.js':'52-mvc/js/data.js',
                     './dist/52-mvc/js/size-view.js':'52-mvc/js/size-view.js',
                     './dist/52-mvc/js/main.js':'52-mvc/js/main.js',
-
+                    './dist/61-store-clicking/store-clicking.js':'61-store-clicking/store-clicking.js',
+                    './dist/62-store-image/store-image.js':'62-store-image/store-image.js',
+                    './dist/63-click-history/click-history.js':'63-click-history/click-history.js',
                 }
             }
         }

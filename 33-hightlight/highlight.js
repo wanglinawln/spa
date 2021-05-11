@@ -1,0 +1,1 @@
+$(function(){$("input").click(function(){var i=$('<div><pre class="javascript"></pre></div>'),a=$("textarea");""!=a.val()&&(i.find("pre").html(a.val()),hljs.highlightBlock(i.find("pre")[0]),$("body").append(i))})});

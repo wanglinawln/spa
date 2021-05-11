@@ -1,0 +1,1 @@
+$(function(){var t=$("progress"),a=$("#start"),c=$("#pause"),n=$("#restart"),r=0,e=0;a.click(function(){0===e&&r<=100&&(e=setInterval(function(){t.attr("value",r++)},100))}),c.click(function(){t.attr("value",r),clearInterval(e),e=0}),n.click(function(){r=0,t.attr("value",r)})});

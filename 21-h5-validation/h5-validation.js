@@ -1,0 +1,1 @@
+$(function(){var i=$("#width"),o=$("#height"),v=$("#perimeter"),h=$("#area");$("form").submit(function(t){function a(t,a){return Math.round(t*Math.pow(10,a))/Math.pow(10,a)}t.preventDefault();var r=Number(i.val()),e=Number(o.val()),n=a(2*(r+e),2),u=a(r*e,2);v.val(n),h.val(u)})});
